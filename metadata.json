@@ -1,0 +1,6 @@
+{
+  "name": "Syntreva — Future Technology Ecosystem",
+  "description": "Syntreva is an advanced technology ecosystem exploring, building, and explaining the intelligent systems and engineering shaping the future.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

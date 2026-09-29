@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" fill="none" width="100%" height="100%">
+  <defs>
+    <linearGradient id="full-sage-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DAD7CD" />
+      <stop offset="35%" stop-color="#A3B18A" />
+      <stop offset="70%" stop-color="#588157" />
+      <stop offset="100%" stop-color="#3A5A40" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark (Left) -->
+  <g transform="translate(10, 10) scale(0.5)">
+    <!-- Outer Arc -->
+    <path d="M 148 52 C 172 78, 170 124, 142 152 C 116 178, 70 174, 46 148" 
+          stroke="url(#full-sage-grad)" 
+          stroke-width="4" 
+          stroke-linecap="round" 
+          stroke-dasharray="140 30"
+          opacity="0.85" />
+    
+    <!-- Abstract S Mark -->
+    <path d="M 136 68 C 136 48, 118 36, 98 36 C 74 36, 58 50, 58 72 C 58 92, 76 102, 102 110 C 130 119, 144 130, 144 150 C 144 172, 124 186, 96 186 C 70 186, 52 172, 48 152" 
+          stroke="url(#full-sage-grad)" 
+          stroke-width="14" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          fill="none" />
+    <path d="M 130 68 C 130 52, 116 42, 98 42 C 78 42, 66 52, 66 70 C 66 85, 80 94, 104 102 C 132 111, 140 124, 140 144 C 140 162, 122 176, 98 176" 
+          stroke="#F4F3EE" 
+          stroke-width="3" 
+          stroke-linecap="round" 
+          opacity="0.95"
+          fill="none" />
+    <circle cx="136" cy="68" r="4.5" fill="#DAD7CD" />
+    <circle cx="48" cy="152" r="4.5" fill="#A3B18A" />
+    <circle cx="100" cy="106" r="3.5" fill="#F4F3EE" />
+  </g>
+
+  <!-- Typography: SYNTREVA -->
+  <text x="120" y="72" font-family="'Syne', 'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="42" letter-spacing="6" fill="#F4F3EE">
+    SYNTREVA
+  </text>
+  
+  <!-- Subtitle Tagline -->
+  <text x="123" y="96" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="3.5" fill="#A3B18A" opacity="0.9">
+    TECHNOLOGY ECOSYSTEM
+  </text>
+</svg>
